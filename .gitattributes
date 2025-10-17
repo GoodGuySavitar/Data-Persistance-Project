@@ -1,2 +1,12 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+**/*.shader linguist-detectable=false
+**/*.cginc linguist-detectable=false
+
+**/*.cs linguist-language=C#
+
+Assets/TextMesh?Pro/** linguist-generated
+Assets/Plugins/** linguist-generated
+Assets/ThirdParty/** linguist-generated
+Assets/Standard Assets/** linguist-generated
